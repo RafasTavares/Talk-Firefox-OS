@@ -1,77 +1,8 @@
-/*pre
-{
-    background: #FAFBFC url("../design/blueprint-dark.png") repeat scroll center top;
-    border-left: 5px solid #558ABB;
-    color: #4D4E53;
-    font-family: Consolas,Monaco,"Andale Mono",monospace;
-    font-weight: 400;
-    -moz-tab-size: 4;
-    -moz-hyphens: none;
-    margin: 0px 0px 20px;
-    color: #4D4E53;
-    text-shadow: none;
-}*/
-
-
-code {
-    font-family: Consolas,"Liberation Mono",Courier,monospace;
-}
-
-pre[data-number] {
-    padding-left: 30px;
-    font-size: 1rem;
-    line-height: 19px;
-}
-
-code[class*="language-"], pre[class*="language-"] {
-    color: #4D4E53;
-    text-shadow: none;
-}
-
-pre code {
-    font-family: inherit;
-    font-weight: inherit;
-    font-style: normal;
-}
-
-pre[class*="language-"] {
-    margin: 0px 0px 20px;
-}
-:not(pre):not(code) > code[class*="language-"], pre.syntaxbox, pre.twopartsyntaxbox, pre[class*="language-"] {
-    background: #FAFBFC url("../design/blueprint-dark.png") repeat scroll center top;
-    border-left: 5px solid #558ABB;
-    color: #4D4E53;
-    font-family: Consolas,Monaco,"Andale Mono",monospace;
-    font-weight: 400;
-    -moz-tab-size: 4;
-    -moz-hyphens: none;
-}
-pre[data-number] {
-    position: relative;
-    padding: 1em 0px 1em 3em;
-}
-:not(pre) > code[class*="language-"], pre[class*="language-"] {
-    background: #F5F2F0 none repeat scroll 0% 0%;
-}
-pre[class*="language-"] {
-    padding: 1em;
-    overflow: auto;
-}
-code[class*="language-"], pre[class*="language-"] {
-    font-family: Consolas,Monaco,"Andale Mono",monospace;
-    direction: ltr;
-    text-align: left;
-    white-space: pre;
-    word-spacing: normal;
-    word-break: normal;
-    -moz-tab-size: 4;
-    -moz-hyphens: none;
-}
 pre {
     font-size: 1rem;
     line-height: 19px;
     border: 0px none;
-    background: #F4F7F8 none repeat scroll 0% 0%;
+    background: #F4F7F8 url(../design/blueprint-dark.png) repeat scroll 0% 0%;
     color: #4D4E53;
     padding: 15px;
     overflow: auto;
